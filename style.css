@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  font-size: 28px;
+  letter-spacing: 1px;
+  display: grid;
+  grid: auto / 1fr minmax(750px, 500px) 1fr;
+}
+
+h1, div {
+  grid-column: 2 / 3;
+}
+
+p { margin: 0; }
+
+div {
+  height: 80vh;
+  margin: 10vh 0;
+  border: var(--border);
+}
+
+.margins {
+  display: grid;
+}
+
+.margins p {
+  margin: auto;
+}
