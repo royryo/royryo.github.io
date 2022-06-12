@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+
+body {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 1.8rem;
+	font-weight: 350;
+	line-height: 1.65;
+}
+
+h1{
+  font-size: 5rem;
+	line-height: 1.2;
+	font-weight: 300;
+	margin: 0 0 1rem 0;
+}
+
+h2{
+  font-size: 1rem;
+	font-weight: 45;
+}
+
+.line{
+  display:inline-block;
+  margin-right:150px;
+} 
+
+.line2{
+  display:inline-block;
+} 
+
+p1{
+  margin-bottom: 0.5em;
+}
+
+.center {
+  display: block;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
